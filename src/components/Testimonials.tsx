@@ -1,5 +1,6 @@
-import React from "react";
+'use client';
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import React from "react";
 
 const musicSchoolTestimonials = [
   {
