@@ -6,7 +6,7 @@ import { Button } from "./ui/moving-border";
 
 function Hero() {
   return (
-    <div className="w-full h-auto md:h-[40rem] mx-auto relative flex flex-col items-center justify-center py-10 overflow-hidden md:py-0">
+    <div className="w-full h-screen md:h-[40rem] mx-auto relative flex flex-col items-center justify-center py-10 overflow-hidden md:py-0">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
