@@ -3,9 +3,9 @@ import React from 'react'
 import { useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams'
 
-function page() {
+function Contact() {
     const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+    const [message, setMessage] = useState('');
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -52,4 +52,4 @@ function page() {
   )
 }
 
-export default page
+export default Contact
