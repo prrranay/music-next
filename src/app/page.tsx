@@ -1,6 +1,7 @@
 import Feature from "@/components/Feature";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
+import UpComing from "@/components/UpComing";
 import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Feature/>
       <WhyUs/>
       <Testimonials/>
+      <UpComing/>
     </main>
   );
 }
