@@ -1,8 +1,9 @@
+'use client'
 import React from 'react'
 
 function page() {
   return (
-    <div className='text-center text-3xl'>page</div>
+    <div>page</div>
   )
 }
 
